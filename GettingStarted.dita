@@ -1,12 +1,11 @@
-<?xml version="1.0"?>
-<!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd">
+<?xml version="1.0"?>
+<!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd">
 <dita>
-  <topic id="GETTING_STARTED_01">
-    <title>Getting Started</title>
-    <shortdesc>
-      This section provides information about how to get started.
-    </shortdesc>
-    <body>
-  </body>
-  </topic>
+    <topic id="GETTINGSTARTED_01">
+        <title>Getting Started</title>
+        <shortdesc>This section provides information about how to get started.</shortdesc>
+        <body>
+            <p>None.</p>
+        </body>
+    </topic>
 </dita>
