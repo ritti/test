@@ -6,7 +6,10 @@
         <shortdesc>This section provides information about how to get started.</shortdesc>
         <body>
             <p>None.</p>
-            <p>This is a new paragraph!</p>
+            <p>This is a new paragraph!<ol id="ol_jrg_mtg_fy">
+                    <li>first</li>
+                    <li>second</li>
+                </ol></p>
             <p>Here comes a image</p>
             <p><image href="Logo4.png" id="image_fwr_d5h_by"/></p>
         </body>
