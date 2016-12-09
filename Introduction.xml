@@ -10,14 +10,13 @@
       <section><b>This is a new
           section</b><codeblock>    &lt;div class="container" style="display: table-cell; margin-top: 0;">
       &lt;xsl:apply-templates/>
-    &lt;/div></codeblock><?oxy_insert_start author="ritti" timestamp="20161209T122816+0200"?><image
-          href="Logo4.png" id="image_zrh_mrg_fy"/><?oxy_insert_end?></section>
-      <?oxy_insert_start author="ritti" timestamp="20161209T122846+0200"?>
+    &lt;/div></codeblock><image
+          href="Logo4.png" id="image_zrh_mrg_fy"/></section>
       <section id="section_qj1_4rg_fy">
         <title>another section</title>
-        <p>This is some text of the other section</p>
+        <p>This is some text of the other
+          <?oxy_comment_start author="ritti" timestamp="20161209T123638+0200" comment="Maybe add additional text!"?>section<?oxy_comment_end?></p>
       </section>
-      <?oxy_insert_end?>
     </body>
   </topic>
 </dita>
