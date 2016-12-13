@@ -12,7 +12,9 @@
           href="Logo4.png" id="image_zrh_mrg_fy"/></section>
       <section id="section_qj1_4rg_fy">
         <title>another section</title>
-        <p>This is some text of the other section</p>
+        <p>This is some text of the other
+          section<?oxy_insert_start author="ritti" timestamp="20161213T151240+0200"?>. for
+          review<?oxy_insert_end?></p>
         <?oxy_insert_start author="ritti" timestamp="20161209T124052+0200"?>
         <p>Here is some new text that has to be reviewed.<simpletable relcolwidth="1.0* 1.0*"
             id="simpletable_ybw_ftg_fy">
