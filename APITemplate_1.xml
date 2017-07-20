@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA Composite//EN" "\\erlh1f2a.ww005.siemens.net\projects\07-Collaboration\SDN\API_Tool\TestSDN\Build\src\XMetaL\Rules\ditabase.dtd"[]>
+<!--Created with API Change Notification Plug-in Version 2.2.3.0-->
+<dita>
+  <topic id="RolandSchneider_syngoCommonCoreIShutdownServiceextendedwithnewAP">
+    <title>syngo.Common.Core.IShutdownService extended with new API to schedule an Action on shutdown</title>
+    <prolog>
+      <author type="creator">Markus Rittmaier</author>
+      <metadata>
+        <othermeta name="Module" content="Service"/>
+        <othermeta name="Version" content="MODULES_VA30" />
+        <othermeta name="Team" content="Enable"/>
+        <othermeta name="Apiforum" content="" />
+        <othermeta name="Changelevel" content="non-breaking" />
+      </metadata>
+    </prolog>
+    <body>
+      <section id="changedComponentsList">
+        <title>Changed Components:</title>
+        <ul>
+          <li>syngo.Common.Core.IShutdownService</li>
+        </ul>
+      </section>
+      <section id="changeDescription">
+        <title>Change Description</title>
+        <p>A new API  IShutdownService.RequestShutdownDelay(string, Action) is provided to register an Action delegate that will be executed on final shutdown of the syngo.Common.Container.exe application.</p>
+        <p>In contrast to the existing IShutdownService.RegisterShutdownDelegate/RegisterShutdownDelegateEx, the new API doesn't provide a means to deny the shutdown and can therefore safely be used in the aquisition workplace (AWP) deployment.</p>
+      </section>
+      <section id="motivation">
+        <title>Motivation</title>
+        <p>Defect 2005381 : Patient Browser configuration settings are not persisted during re-starting of Torus deployment set</p>
+      </section>
+    </body>
+  </topic>
+</dita>
